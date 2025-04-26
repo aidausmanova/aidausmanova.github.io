@@ -1,0 +1,112 @@
+body {
+    font-size: 1.6em; 
+    margin-bottom: 40px; 
+    /* font-family: 'Calibri', sans-serif; */
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+}
+h1, h2, h3{
+    font-weight: 300;
+    font-family: "Roboto", sans-serif;
+}
+
+.navbar {
+    background-color: White; 
+    border-bottom: 1px solid #EEEFEF; 
+    /* color: #B2B5B5;  */
+    font-size: 15px;
+}
+.page:hover {
+    background-color: #54b414;
+    color: hsl(0, 0%, 100%);
+    border: 0;
+}
+
+.btn {
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+    display: inline-block;
+    background-color: White;
+    border: 0.5;
+    border-radius: 0;
+    border-color: #9fa1a29f;
+    color: #767676;
+    cursor: pointer;
+    margin-top: 2%;
+    font-size: 13px;
+    cursor: pointer;
+    transition: all 0.5s ease;
+    width: auto;
+    min-width: 50px;
+    height:20px;
+    margin-right: 8px;
+    /* box-shadow: none; */
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.btn:hover {
+    background-color: #54b414;
+    color: hsl(0, 0%, 100%);
+    border: 0;
+    box-shadow: none;
+}
+
+.sticky-sidebar {
+    position: relative;
+    top: 10%; 
+    align-self: flex-start;
+    margin-top:7%; 
+    padding-right: 5%; 
+    background-position: left top, center center; 
+    text-align: right;
+}
+@media (min-width: 768px) {
+    .sticky-sidebar {
+        position: sticky;
+        top: 10%;
+        z-index: 1;
+    }
+}
+
+.col {
+    /* margin-bottom: 5%; */
+    padding-bottom: 1%;
+    /* border-bottom: 1px solid #EEEFEF; */
+}
+.col:last-child {
+    border-bottom: none;
+}
+
+.icon-list {
+    list-style: none;
+    display: flex;
+    justify-content: flex-end;
+    gap: 10px;
+    width: 100%;
+}
+.custom-icon {
+    width: 25px;
+    height: 25px;
+    display: block;
+    object-fit: contain;
+}
+
+.biblist {
+    list-style: none; 
+    padding-left: 10px; 
+    /* margin: 0 20px 0 -6px; */
+}
+.bibyear {
+    text-align: right;
+    color: #d4d9d9;
+    padding-top: 2%;
+    border-top: 1px solid #EEEFEF;
+}
+.title{
+    font-weight: 400;
+}
+th, td {
+    border: none;
+}

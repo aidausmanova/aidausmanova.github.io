@@ -1,10 +1,4 @@
 <!DOCTYPE html>
-<!--
-    Plain-Academic by Vasilios Mavroudis
-    Released under the  Simplified BSD License/FreeBSD (2-clause) License.
-    https://github.com/mavroudisv/plain-academic
--->
-
 <html lang="en">
 <head>
   <title>Aida Usmanova</title>
@@ -19,92 +13,27 @@
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css"> -->
   <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+  <link rel="stylesheet" href="style.css">
 </head>
-<body style="font-size: 1.5em; margin-bottom: 40px; font-family: 'Calibri', sans-serif;" >
-    <style>
-        .btn {
-        display: inline-block;
-        background-color: White;
-        border: 0.5;
-        border-radius: 0;
-        border-color: #d9dadb;
-        color: #888888;
-        cursor: pointer;
-        margin-top: 2%;
-        font-size: 13px;
-        cursor: pointer;
-        transition: all 0.5s ease;
-        width: auto;
-        min-width: 50px;
-        height:20px;
-        margin-right: 8px;
-
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        }
-        .btn:hover {
-        background-color: #54b414;
-        color: hsl(0, 0%, 100%);
-        border: 0;
-        }
-
-        .sticky-sidebar {
-        position: relative;
-        top: 10%; 
-        align-self: flex-start;
-        }
-        @media (min-width: 768px) {
-        .sticky-sidebar {
-            position: sticky;
-            top: 10%;
-            z-index: 1;
-        }
-        }
-
-        .col {
-        margin-bottom: 5%;
-        padding-bottom: 2%;
-        border-bottom: 1px solid #EEEFEF;
-        }
-        .col:last-child {
-        border-bottom: none;
-        }
-
-        .icon-list {
-        list-style: none;
-        display: flex;
-        justify-content: flex-end;
-        gap: 10px;
-        width: 100%;
-        }
-        .custom-icon {
-        width: 25px;
-        height: 25px;
-        display: block;
-        object-fit: contain;
-        }
-    </style>
-
+<body>
 
 <!-- Navigation -->
-<!-- <nav class="navbar navbar-inverse navbar-static-top" role="navigation" style="background-color: White; border: 0; color: #B2B5B5; font-size: 15px;">
+<!-- <nav class="navbar navbar-inverse navbar-static-top" role="navigation">
     <div class="container">
       <div class="navbar-header">
         <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
-                      <span class="sr-only">Toggle navigation</span>
-                      <span class="icon-bar"></span>
-                      <span class="icon-bar"></span>
-                      <span class="icon-bar"></span>
-                  </button>
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+        </button>
       </div>
-
       <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
         <ul class="nav navbar-nav">
-                <li><a href="https://aidausmanova.github.io/index.html">Home</a></li>
-                <li><a href="https://aidausmanova.github.io/#publications">Publications</a></li>
-                <li><a href="https://aidausmanova.github.io/#talks">News</a></li> 
-                <li><a href="https://aidausmanova.github.io/Resume_AidaUsmanova.pdf">CV</a></li>
+            <li class="page"><a href="https://aidausmanova.github.io/index.html">About</a></li>
+            <li class="page"><a href="publications.html">Publications</a></li>
+            <li class="page"><a href="pdfs/Resume_AidaUsmanova.pdf">Resume</a></li>
         </ul>
       </div>
     </div>
@@ -114,11 +43,11 @@
     <div class="container">
         <div class="row">
             <!-- Contact Info on the Sidebar -->
-            <div class="col-md-3 col-xs-12 sticky-sidebar" style="margin-top:10%; padding-right: 5%; background-position: left top, center center; text-align: right;">
-                <div class="row"><img class="img-responsive" style=" max-width: 100%; height: auto;" src="imgs/photo1.JPG"></div><br>
+            <div class="col-md-3 col-xs-12 sticky-sidebar">
+                <div class="row"><img class="img-responsive" style=" max-width: 100%; height: auto;" src="imgs/photo.jpg"></div><br>
                 <div class="row" style="word-wrap: break-word; font-family: 'Poppins', sans-serif; font-size: 28px;"><strong>Aida Usmanova</strong></div><br>
                 <div class="row" style="font-family: 'Poppins', sans-serif; font-size: 15px;">PhD Student <br> Natural Language Processing<br>Leuphana University Lüneburg</div><br>
-                <div class="row" style="font-family: 'Poppins', sans-serif; font-size: 15px;"><a href="https://aidausmanova.github.io/Resume_AidaUsmanova.pdf">Resume</a></div><br>
+                <!-- <div class="row" style="font-family: 'Poppins', sans-serif; font-size: 15px;"><a href="https://aidausmanova.github.io/pdfs/Resume_AidaUsmanova.pdf">Resume</a></div><br> -->
                 <ul class="icon-list">
                     <li><a href="aidausmanova99@gmail.com" target="_blank"><img src="imgs/email.svg" class="custom-icon"></a></li>
                     <li><a href="https://scholar.google.com/citations?user=-INweH4AAAAJ&hl=en" target="_blank"><img src="imgs/google-scholar.svg" class="custom-icon"></a></li>
@@ -132,12 +61,11 @@
             </div>
             <!-- Entries Column -->
             <div class="col-md-8 col-xs-12">
-                <div class="col" style="margin-top:5%; text-align:justify;">  
+                <div class="col" style="margin-top:2%; text-align:justify;">  
                     <header style="padding-top: 8px">
                         <h2 style="display:inline-block;">Hello,</h2> 
                         <h2 style="display:inline-block; font-size: 1.3em;">I am Aida 👋</h2>
-                      </header>              
-					<!-- <p>Hello, I am Aida 👋</p> -->
+                    </header>              
                     <p>
                         An AI enthusiast dedicated to benefiting humanity and environment through research. Currently, I am pursuing a doctorate degree at Leuphana University Lüneburg (2023 - present) co-supervised by <a href="https://www.leuphana.de/institute/iis/personen/ricardo-usbeck.html">Prof. Dr. Ricardo Usbeck</a> and <a href="https://www.df.uzh.ch/en/people/professor/leippold.html">Prof. Dr. Markus Leippold</a>.
                     </p>
@@ -145,108 +73,137 @@
                         My research focuses on leveraging <b>AI for social and environmental good</b>. I investigate the use of LLMs and knowledge graphs at the intersection of NLP and climate change. Specifically focusing on misinformation and greenwashing detection, enhancing transparency and accountability of corporate climate claims. Additionally, I explore the field of <b>Responsible AI</b>, where we work on understanding better ways to conduct sustainable research and improve research environmental impact.
                     </p>
                     <p>If you are interested in collaborations in these fields, please feel free to reach out.</p>
+                    <p>You can find more information about me from my <a href="https://aidausmanova.github.io/pdfs/Resume_AidaUsmanova.pdf">resume</a>.</p> 
             </div> 
-            <div class="col" >    
-                    <h3 id="publications">Publications</h3>
-                    <ul style="list-style: none; padding-left: 10px; margin: 0 20px 0 -6px;">
-                        <li style="margin-bottom: 2.2em;">
-                          <a class="paper" href="https://ebooks.iospress.nl/doi/10.3233/FAIA250222">Neuro-Symbolic Relation Extraction</a><br>
-                          Xi Yan, <b>Aida Usmanova</b>, Cedric Möller, Patrick Westphal, Ricardo Usbeck
-                          <br>
-                          <i>Handbook on Neurosymbolic AI and Knowledge Graphs</i> 2025
-                          <br>
-                          <div class="btn-group">
-                              <a href="https://ebooks.iospress.nl/doi/10.3233/FAIA250222" target="_blank" class="btn">paper</a>
-                          </div>
+            <div class="col">    
+                <header class="post-header" >
+                    <h3 class="post-title">Publications</h3>
+                    <!-- <p class="post-description">Publications listed in reverse chronological order.</p> -->
+                </header>
+                <div class="publications">
+                    <h3 class="bibyear">2025</h3>
+                    <ul class="biblist">
+                        <li style="margin-bottom: 2em;">
+                            <div class="title">The ClimateCheck Dataset: Mapping Social Media Claims About Climate Change to Corresponding Scholarly Articles</div>
+                            <div class="author">Raya Abu Ahmad, <u>Aida Usmanova</u>, Georg Rehm</div>
+                            <div class="pub"><em>Proceedings of the 5th Workshop on Scholarly Document Processing. ACL 2025</em></div>
+                            <div class="btn-group">
+                                <!-- <a href="https://aclanthology.org/2024.climatenlp-1.13/" target="_blank" class="btn">paper</a> -->
+                                <a href="https://github.com/ryabhmd/climatecheck" target="_blank" class="btn">github</a>
+                                <!-- <a href="https://nlp4climate.github.io/" target="_blank" class="btn">workshop</a> -->
+                            </div>
                         </li>
-                        <li style="margin-bottom: 2.2em;">
-                            <a class="paper" href="https://aclanthology.org/2024.climatenlp-1.13/">Structuring Sustainability Reports for Environmental Standards with LLMs guided by Ontology</a><br>
-                            <b>Aida Usmanova</b>, Ricardo Usbeck
-                            <br>
-                            <i>ACL</i> 2024
-                            <br>
+                        <li style="margin-bottom: 2em;">
+                            <div>
+                                <!-- <div class="col col-sm-2 abbr">
+                                    <figure>
+                                        <picture>
+                                            <source class="responsive-img-srcset">
+                                        </picture>
+                                    </figure>
+                                </div> -->
+                                <div class="title">Neuro-Symbolic Relation Extraction</div>
+                                <div class="author">Xi Yan, <u>Aida Usmanova</u>, Cedric Möller, Patrick Westphal, Ricardo Usbeck</div>
+                                <div class="pub"><em>Handbook on Neurosymbolic AI and Knowledge Graphs</em> 2025</div>
+                                <div class="btn-group">
+                                <a href="https://ebooks.iospress.nl/doi/10.3233/FAIA250222" target="_blank" class="btn">paper</a>
+                                </div>
+                            </div>
+                        </li>
+                    </ul>
+                    <h3 class="bibyear">2024</h3>
+                    <ul class="biblist">
+                        <li style="margin-bottom: 2em;">
+                            <div class="title">Structuring Sustainability Reports for Environmental Standards with LLMs guided by Ontology</div>
+                            <div class="author"><u>Aida Usmanova</u>, Ricardo Usbeck</div>
+                            <div class="pub"><em>Proceedings of the 1st Workshop on Natural Language Processing Meets Climate Change. ACL 2024</em></div>
                             <div class="btn-group">
                                 <a href="https://aclanthology.org/2024.climatenlp-1.13/" target="_blank" class="btn">paper</a>
                                 <a href="https://github.com/aidausmanova/esrs_kg" target="_blank" class="btn">github</a>
+                                <a href="pdfs/nlp4climate_poster.pdf" target="_blank" class="btn">poster</a>
                                 <a href="https://nlp4climate.github.io/" target="_blank" class="btn">workshop</a>
                             </div>
                         </li>
-                        <li style="margin-bottom: 2.2em;">
-                            <a class="paper" href="https://aclanthology.org/2024.textgraphs-1.9/">TextGraphs 2024 Shared Task on Text-Graph Representations for Knowledge Graph Question Answering</a><br>
-                            Andrey Sakhovskiy, Mikhail Salnikov, Irina Nikishina, <b>Aida Usmanova</b>, Angelie Kraft, Cedric Möller, Debayan Banerjee, Junbo Huang, Longquan Jiang, Rana Abdullah, Xi Yan, Dmitry Ustalov, Elena Tutubalina, Ricardo Usbeck, Alexander Panchenko
-                            <br>
-                            <i>ACL</i> 2024
-                            <br>
+                        <li style="margin-bottom: 2em;">
+                            <div class="title">TextGraphs 2024 Shared Task on Text-Graph Representations for Knowledge Graph Question Answering</div>
+                            <div class="author">Andrey Sakhovskiy, Mikhail Salnikov, Irina Nikishina, <u>Aida Usmanova</u>, Angelie Kraft, Cedric Möller, Debayan Banerjee, Junbo Huang, Longquan Jiang, Rana Abdullah, Xi Yan, Dmitry Ustalov, Elena Tutubalina, Ricardo Usbeck, Alexander Panchenko</div>
+                            <div class="pub"><em>Proceedings of the 17th Workshop on Graph-based Methods for Natural Language Processing. ACL 2024</em></div>
                             <div class="btn-group">
                                 <a href="https://aclanthology.org/2024.textgraphs-1.9/" target="_blank" class="btn">paper</a>
                                 <a href="https://sites.google.com/view/textgraphs2024" target="_blank" class="btn">workshop</a>
                             </div>
                         </li>
-                        <li style="margin-bottom: 2.2em;">
-                            <a class="paper" href="https://link.springer.com/chapter/10.1007/978-3-031-65794-8_1">Scholarly Question Answering using Large Language Models in the NFDI4DataScience Gateway</a><br>
-                            Hamed Babaei Giglou, Tilahun Abedissa Taffa, Rana Abdullah, <b>Aida Usmanova</b>, Ricardo Usbeck, Jennifer D'Souza, Sören Auer
-                            <br>
-                            <i>ESWC</i> 2024
-                            <br>
+                        <li style="margin-bottom: 2em;">
+                            <div class="title">Scholarly Question Answering using Large Language Models in the NFDI4DataScience Gateway</div>
+                            <div class="author">Hamed Babaei Giglou, Tilahun Abedissa Taffa, Rana Abdullah, <u>Aida Usmanova</u>, Ricardo Usbeck, Jennifer D'Souza, Sören Auer</div>
+                            <div class="pub"><em>Proceedings of the 1st Workshop on Natural Scientific Language Processing and Research Knowledge Graphs. ESWC 2024</em></div>
                             <div class="btn-group">
-                                <a href="https://arxiv.org/abs/2406.07257" target="_blank" class="btn">paper</a>
+                                <a href="https://link.springer.com/chapter/10.1007/978-3-031-65794-8_1" target="_blank" class="btn">paper</a>
                                 <a href="https://nfdi4ds.github.io/nslp2024/" target="_blank" class="btn">workshop</a>
                             </div>
                         </li>
-                        <li style="margin-bottom: 2.2em;">
-                            <a class="paper" href="https://ieeexplore.ieee.org/abstract/document/10453566">Understanding Environmental Posts: Sentiment and Emotion Analysis of Social Media Data</a><br>
-                            Daniyar Amangeldi, <b>Aida Usmanova</b> and Pakizar Shamoi
-                            <br>
-                            <i>IEEE Access</i> 2024
-                            <br>
+                        <li style="margin-bottom: 2em;">
+                            <div class="title">Understanding Environmental Posts: Sentiment and Emotion Analysis of Social Media Data</div>
+                            <div class="author">Daniyar Amangeldi, <u>Aida Usmanova</u> and Pakizar Shamoi</div>
+                            <div class="pub"><em>IEEE Access</em> 2024</div>
                             <div class="btn-group">
                                 <a href="https://ieeexplore.ieee.org/abstract/document/10453566" target="_blank" class="btn">paper</a>
                             </div>
                         </li>
-                        <li style="margin-bottom: 2.2em;">
-                            <a class="paper" href="https://arxiv.org/abs/2408.01453">Reporting and Analysing the Environmental Impact of Language Models on the Example of Commonsense Question Answering with External Knowledge</a><br>
-                            <b>Aida Usmanova</b>, Junbo Huang, Debayan Banerjee, Ricardo Usbeck
-                            <br>
-                            <i>Sustainable AI</i> 2023
-                            <br>
+                    </ul>
+                    <h3 class="bibyear">2023</h3>
+                    <ul class="biblist">
+                        <li style="margin-bottom: 2em;">
+                            <div class="title">Reporting and Analysing the Environmental Impact of Language Models on the Example of Commonsense Question Answering with External Knowledge</div>
+                            <div class="author"><u>Aida Usmanova</u>, Junbo Huang, Debayan Banerjee, Ricardo Usbeck</div>
+                            <div class="pub"><em>Sustainable AI</em> 2023</div>
                             <div class="btn-group">
                                 <a href="https://arxiv.org/abs/2408.01453" target="_blank" class="btn">paper</a>
                                 <a href="https://github.com/aidausmanova/commonsense_qa" target="_blank" class="btn">github</a>
                             </div>
                         </li>
                     </ul>
-		            <!-- <p><a href="https://ebooks.iospress.nl/doi/10.3233/FAIA250222">Neuro-Symbolic Relation Extraction</a> Xi Yan, <b>Aida Usmanova</b>, Cedric Möller, Patrick Westphal, Ricardo Usbeck (Handbook on Neurosymbolic AI and Knowledge Graphs)</p>
-                    <p><a href="https://aclanthology.org/2024.climatenlp-1.13/">Structuring Sustainability Reports for Environmental Standards with LLMs guided by Ontology</a> - <b>Aida Usmanova</b>, Ricardo Usbeck (ACL 2024 Workshop on Natural Language Processing meets Climate Change)</p> -->
-		            <!-- <p><a href="https://aclanthology.org/2024.textgraphs-1.9/">TextGraphs 2024 Shared Task on Text-Graph Representations for Knowledge Graph Question Answering</a>- Andrey Sakhovskiy, Mikhail Salnikov, Irina Nikishina, <b>Aida Usmanova</b>, Angelie Kraft, Cedric Möller, Debayan Banerjee, Junbo Huang, Longquan Jiang, Rana Abdullah, Xi Yan, Dmitry Ustalov, Elena Tutubalina, Ricardo Usbeck, Alexander Panchenko (ACL 2024 Workshop on TextGraphs-17: Graph-based Methods for Natural Language Processing)</p> -->
-                    <!-- <p><a href="https://arxiv.org/abs/2406.07257">Scholarly Question Answering using Large Language Models in the NFDI4DataScience Gateway</a> - Hamed Babaei Giglou, Tilahun Abedissa Taffa, Rana Abdullah, <b>Aida Usmanova</b>, Ricardo Usbeck, Jennifer D'Souza, Sören Auer (ESWC 2024 Workshop on Natural Scientific Language Processing and Research Knowledge Graphs)</p> -->
-                    <!-- <p><a href="https://ieeexplore.ieee.org/abstract/document/10453566">Understanding Environmental Posts: Sentiment and Emotion Analysis of Social Media Data</a>  - Daniyar Amangeldi, <b>Aida Usmanova</b> and Pakizar Shamoi (IEEE Access)</p>
-                    <p><a href="https://arxiv.org/abs/2408.01453">Reporting and Analysing the Environmental Impact of Language Models on the Example of Commonsense Question Answering with External Knowledge</a> - <b>Aida Usmanova</b>, Junbo Huang, Debayan Banerjee, Ricardo Usbeck (Bonn Sustainable AI 2023)</p> -->
+                </div>
             </div>
             <div class="col">  
-                <h3 id="talks" >Talks and News</h3>
-                <!-- <div class="col" ,="" style="max-height: 200px;overflow: scroll;border-color: black;border-style: solid;border-width: 1px;border-left: 0;border-right: 0;padding: 1em;/*! padding-top: 0; */">   -->
-                    <ul style="list-style: none; padding-left: 10px; margin: 0 20px 0 -6px;">
-                        <li>
-                            <a href="https://www.leuphana.de/en/institutes/iis/news/single-view/2024/09/12/aida-usmanova-presents-paper-at-the-acl-2024.html">ClimateNLP workshop at ACL 2024</a><br>
-                            <p>Our paper, "Structuring Sustainability Reports for Environmental Standards with LLMs guided by Ontology", was accepted in the processdings of the first ClimateNLP workshop at ACL. To present our work at the poster session on 16th of August, I flew to Bangkok and attended the entire conference.<br></p>
-                        </li>
-                        <li>
-                            <a href="https://www.inf.uni-hamburg.de/en/inst/ab/sems/home/news/2024/airbus-2024.html">Airbus Innvation Day</a><br>
-                            <p>During the Airbus Innovation Day on March 5th, me and my collegue Rana Abdullah were invited to give a talk about Generative AI and it's application in industry. We also had a tour at the Airbus cybersecurity lab and the Future Industrial Line.<br></p>        
-                        </li>
-                        <li>
-                            <a href="https://www.sustainable-ai-conference.eu/">Sustainable AI 2023</a><br>
-                            <p>Our paper "Reporting and Analysing the Environmental Impact of Language Models on the Example of Commonsense Question Answering with External Knowledge" was accepted at Sustainable AI 2023 in Bonn. On 30th of May I presented the findings of my master's thesis about the environmental impact of LLMs training and fine-tuning, as well as what practices promote transparent and sustainable research.<br></p>        
-                        </li>
-                        <li>
-                            <a href="https://csti.haw-hamburg.de/2023/03/07/labtalks7/">Computer Science 4 Future</a><br>
-                            <p>On March 3rd 2023 I was kindly invited by Marin Kohler, the coordinator of Network of Labs, to participate at their LabTalks session. There I presented what potential harmful impact can AI have and what practices promote more mindful and sustainable development.</p>
-                        </li>
-                    </ul>
+                <header class="post-header" >
+                    <h3 class="post-title" id="talks">News</h3>
+                </header>
+                <div class="news">
+                    <!-- <div class="col" ,="" style="max-height: 200px;overflow: scroll;border-color: black;border-style: solid;border-width: 1px;border-left: 0;border-right: 0;padding: 1em;/*! padding-top: 0; */">   -->
+                    <div class="table-responsive" style="max-height: 60vw">
+                        <table class="table table-sm table-borderless">
+                            <tbody >
+                                <tr>
+                                    <th scope="row" style="width: 20%; border: none;">Mar 28, 2025</th>
+                                    <td style="border: none;">I am attending <a href="https://www.ufz.de/index.php?en=36870#ccms-cit-readmore-element-9465469">Text as Data in Hydrology, Natural Hazards, and Climate Change"</a> workshop in Leipzig organized by Helmholtz Centre for Environmental Research.</td>
+                                </tr>
+                                <tr>
+                                    <th scope="row" style="width: 20%; border: none;">Aug 16, 2024</th>
+                                    <td style="border: none;">I am attending ACl 2024 in Bangkok to present a poster at <a href="https://www.leuphana.de/en/institutes/iis/news/single-view/2024/09/12/aida-usmanova-presents-paper-at-the-acl-2024.html">ClimateNLP workshop</a> "Structuring Sustainability Reports for Environmental Standards with LLMs guided by Ontology".</td>
+                                </tr>
+                                <tr>
+                                    <th scope="row" style="width: 20%; border: none;">Mar 5, 2024</th>
+                                    <td style="border: none;">During the <a href="https://www.inf.uni-hamburg.de/en/inst/ab/sems/home/news/2024/airbus-2024.html">Airbus Innvation Day</a> on March 5th, me and my collegue Rana Abdullah were invited to give a talk about Generative AI and it's application in industry. We also had a tour at the Airbus cybersecurity lab and the Future Industrial Line.</td>
+                                </tr>
+                                <tr>
+                                    <th scope="row" style="width: 20%; border: none;">May 30, 2023</th>
+                                    <td style="border: none;">I am attending <a href="https://www.sustainable-ai-conference.eu/">Sustainable AI 2023</a> in Bonn to present  the findings of my master's thesis "Reporting and Analysing the Environmental Impact of Language Models on the Example of Commonsense Question Answering with External Knowledge".</td>
+                                </tr>
+                                <tr>
+                                    <th scope="row" style="width: 20%; border: none;">Mar 3, 2023</th>
+                                    <td style="border: none;">I was kindly invited by Marin Kohler, the coordinator of Network of Labs, to participate at the LabTalks session - <a href="https://csti.haw-hamburg.de/2023/03/07/labtalks7/">Computer Science 4 Future</a>. There I presented what potential harmful impact AI can have and what practices promote more mindful and sustainable development.</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
                 <!-- </div> -->
             </div>
             <div class="col">
-                <h3 id="teaching">Teaching</h3>
+                <header class="post-header" >
+                    <h3 class="post-title">Teaching</h3>
+                </header>
                 <ul style="list-style: none; padding-left: 10px; margin: 0 20px 0 -6px;">
                     <li>
                         <a href="https://legacy.globalaihub.com/10million-ai/">Mentor at Global AI Hub</a><br>
